@@ -13,12 +13,20 @@
   <header>
     <nav>
       <ul>
-        <li><a href="proyecto_Lorenzo.html">Inicio</a></li>
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="Adopta_Lorenzo.html">Adopta</a></li>
+        <li><a id="colorbutton" href="#">Cambiar color</a></li>
         <li><a href="Contacto_Lorenzo.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
+ 
+ <script>
+    const colorButton = document.getElementById('colorbutton');
+    colorButton.addEventListener('click', function() {
+      document.body.style.backgroundColor = 'teal';
+    });
+  </script>
 
 <!-- Imagen -->
   <section id="intro">
